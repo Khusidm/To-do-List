@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda&family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.8rem;
+    line-height: 1.7;
+    background-image: linear-gradient(to right, #420516, #7D1935, #B42B51, #B42B51,#7D1935, #420516);
+}
+
+h1{
+    color: blanchedalmond;
+    text-align: center;
+    text-decoration: underline solid 2px blanchedalmond;
+    padding: 1.8rem;
+    margin-top: -1.2rem;
+    margin-bottom: -2rem;
+}
+
+section.wrap{
+    width:98%;
+     margin: 1.5rem;  
+}
+
+.row{
+     display: inline-block;
+     width:98%;
+     margin: 1.5rem;
+}
+
+.left{
+     float: left;
+     width: 10%;
+     padding: 0.5rem;
+     margin-top: 0.5%;
+     font-size: 1.8rem;
+}
+
+.right{
+    float: right;
+    width:89%;
+    padding: 1rem;
+    font-size: 1.8rem;
+}
+
+.row::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.right:focus{
+   background-color: rgba(255, 255, 255, 0.568);
+   outline: none;
+   color: black;
+}
+
+#addButton{
+    color: black;
+    border: solid 1px #eee;
+    border-radius: 2rem;
+}
+
+#addButton:hover{
+   background-color: #ccc;
+}
+
+li{
+    list-style-type: none;
+    background-color: #fff;
+    color: black;
+    padding: 0.5rem;
+    font-size: 2.2rem;
+    font-family: 'Merienda', cursive;
+}
+ 
+.done{
+    background-color: rgb(62, 211, 33);
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+}
+ 
+.remove{
+     background-color: red;
+     padding: 0.5rem;
+}
+
+li.finished{
+    color: black;
+    background-color: #ddd;
+    text-decoration: line-through;
+}
+ 
+.aboutcolor{
+    margin-top: 6px;
+    background-color: rgba(0, 0, 0, 0.178);
+    color: blanchedalmond;
+    font-size: 1.8rem;
+ }
+
+.btns{
+  margin-top: 1rem;
+}
+
+.btn{
+   width: 10%;
+   padding: 0.5rem;
+   margin-top: 0.3%;
+   margin-right: 0.3%;
+   font-size: 1.8rem;
+   cursor: pointer;
+}
+ 
+#divabout{
+   width:55%;
+   margin-top: 2rem;
+}
